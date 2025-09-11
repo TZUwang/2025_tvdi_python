@@ -61,3 +61,15 @@ else:
 '''
 def comput(x):
     score = ['',0 ,0 ,0]
+    classes = ['姓名' , '國文' , '英文' , '數學' ]
+    score[0] = x
+    sum = 0
+    for i in range(1,len(classes)):
+        score[i] = int(input(f'請輸入{classes[i]}成績:'))
+        sum += score[i]
+    for i in range(len(classes)):
+        print(f'{classes[i]}成績:{score[i]}')
+        print(f'總分為:{sum},平均為:{sum/3}')
+
+        
+    

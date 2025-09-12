@@ -71,5 +71,13 @@ def comput(x):
         print(f'{classes[i]}成績:{score[i]}')
         print(f'總分為:{sum},平均為:{sum/3}')
 
-        
+def main():
+    name = input('請輸入姓名:')
+    while name != '':
+        comput(name)
+    else:
+        print('結束')
+main()
+
+
     

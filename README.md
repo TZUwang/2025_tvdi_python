@@ -1,2 +1,2 @@
-# 2025_python_ML/DL
-2025-Python ML/DL
+# 2025_python_ONLY
+2025-Python
